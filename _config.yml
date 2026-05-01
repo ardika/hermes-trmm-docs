@@ -1,0 +1,51 @@
+title: Hermes Network 360 Guard — Panduan Integrasi Tactical RMM
+description: Dokumentasi arsitektur dan implementasi integrasi Tactical RMM yang bersih untuk aplikasi desktop Hermes Network 360 Guard
+remote_theme: just-the-docs/just-the-docs
+
+# URL settings
+baseurl: "/hermes-trmm-docs"
+url: "https://ardika.github.io"
+
+# just-the-docs theme options
+search_enabled: true
+search:
+  heading_level: 3
+  previews: 3
+  preview_words_before: 5
+  preview_words_after: 10
+  tokenizer_separator: /[\s\-/]+/
+  rel_url: true
+  button: false
+
+heading_anchors: true
+
+aux_links:
+  "Hermes Network Inc. di GitHub":
+    - "https://github.com/Hermes-Network-Inc"
+
+footer_content: |
+  <small>Dokumentasi internal — Hermes Network Inc. &copy; 2026.<br>
+  Dibuat untuk tim teknik yang mengelola Hermes Network 360 Guard desktop client.</small>
+
+# Color scheme
+color_scheme: dark
+
+# Code copy buttons
+enable_copy_code_button: true
+
+# Mermaid diagrams
+mermaid:
+  version: "10.9.0"
+
+# Plugins
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+
+# Files to exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+  - node_modules/
+  - README.md
