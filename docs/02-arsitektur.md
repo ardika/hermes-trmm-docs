@@ -105,7 +105,7 @@ flowchart TB
 
 - **Tiga lapis yang independen**, bisa di-test terpisah
 - Tidak ada custom IPC. Komunikasi pakai HTTP standar atau OS API.
-- ServiceEngine.exe **dihilangkan** di akhir migrasi (lihat [Bab 10]({% link docs/10-migrasi.md %}))
+- ServiceEngine.exe **dihilangkan** di akhir migrasi (lihat [Bab 10]({{ site.baseurl }}{% link docs/10-migrasi.md %}))
 - TRMM API adalah single source of truth untuk state agent
 - Enrollment lewat backend Supabase, bukan di-hardcode di client
 
@@ -136,7 +136,7 @@ HermesNetwork/
         └── TrmmApiException.cs
 ```
 
-Detail di [Bab 4 — TrmmApiClient]({% link docs/04-trmm-api-client.md %}).
+Detail di [Bab 4 — TrmmApiClient]({{ site.baseurl }}{% link docs/04-trmm-api-client.md %}).
 
 ### Layer 2 — `AgentSupervisor`
 
@@ -161,7 +161,7 @@ HermesNetwork/
         └── MacAgentSupervisor.cs
 ```
 
-Detail di [Bab 5 — AgentSupervisor]({% link docs/05-agent-supervisor.md %}).
+Detail di [Bab 5 — AgentSupervisor]({{ site.baseurl }}{% link docs/05-agent-supervisor.md %}).
 
 ### Layer 3 — Enrollment Flow
 
@@ -180,7 +180,7 @@ Komponen:
    - Polling `TrmmApiClient.GetAgentByHostnameAsync(...)` sampai agent online
    - Menyimpan `agent_id` di Supabase user profile
 
-Detail di [Bab 6 — Enrollment Flow]({% link docs/06-enrollment-flow.md %}).
+Detail di [Bab 6 — Enrollment Flow]({{ site.baseurl }}{% link docs/06-enrollment-flow.md %}).
 
 ## 2.4 Aliran data: contoh "user buka tab RMM"
 
@@ -295,5 +295,5 @@ Sengaja dibatasi scope agar bisa migrasi inkremental:
 
 ---
 
-[← Bab 1 Pendahuluan]({% link docs/01-pendahuluan.md %}){: .btn }
-[Bab 3 — Prasyarat →]({% link docs/03-prasyarat.md %}){: .btn .btn-primary }
+[← Bab 1 Pendahuluan]({{ site.baseurl }}{% link docs/01-pendahuluan.md %}){: .btn }
+[Bab 3 — Prasyarat →]({{ site.baseurl }}{% link docs/03-prasyarat.md %}){: .btn .btn-primary }

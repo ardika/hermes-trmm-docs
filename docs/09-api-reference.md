@@ -371,5 +371,5 @@ Bisa di-tune di TRMM admin settings. Untuk Hermes Network, default cukup karena 
 
 ---
 
-[← Bab 8 Dukungan macOS]({% link docs/08-mac-support.md %}){: .btn }
-[Bab 10 — Rencana Migrasi →]({% link docs/10-migrasi.md %}){: .btn .btn-primary }
+[← Bab 8 Dukungan macOS]({{ site.baseurl }}{% link docs/08-mac-support.md %}){: .btn }
+[Bab 10 — Rencana Migrasi →]({{ site.baseurl }}{% link docs/10-migrasi.md %}){: .btn .btn-primary }

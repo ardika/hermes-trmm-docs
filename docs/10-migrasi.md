@@ -90,7 +90,7 @@ Spreadsheet `audit-ipc-mapping.xlsx` dengan tab "Read", "Lifecycle", "Enrollment
 
 ### Tugas
 
-1. Buat folder `HermesNetwork/Trmm/` (lihat [Bab 4]({% link docs/04-trmm-api-client.md %}))
+1. Buat folder `HermesNetwork/Trmm/` (lihat [Bab 4]({{ site.baseurl }}{% link docs/04-trmm-api-client.md %}))
 2. Implementasikan semua DTO record + `ITrmmApiClient` + `TrmmApiClient`
 3. Tambah unit test di project test baru:
 
@@ -211,7 +211,7 @@ Phase ini **tidak menyentuh install/enrollment** — itu phase 4. Phase 3 hanya 
 
 ### Tugas
 
-1. Implementasi sesuai [Bab 5]({% link docs/05-agent-supervisor.md %})
+1. Implementasi sesuai [Bab 5]({{ site.baseurl }}{% link docs/05-agent-supervisor.md %})
 2. Replace `IpcComService.StartService(serviceName)` → `_supervisor.StartAsync(serviceName)`
 3. Replace `IpcComService.StopService(serviceName)` → `_supervisor.StopAsync(serviceName)`
 4. Replace `IpcComService.IsServiceRunning(serviceName)` → `_supervisor.GetStateAsync(serviceName)`
@@ -235,7 +235,7 @@ Mendaftarkan endpoint baru via TRMM deployment URL (bukan custom IPC).
 
 ### Tugas
 
-1. Deploy `enroll-rmm` Edge Function (lihat [Bab 6]({% link docs/06-enrollment-flow.md %}))
+1. Deploy `enroll-rmm` Edge Function (lihat [Bab 6]({{ site.baseurl }}{% link docs/06-enrollment-flow.md %}))
 2. Implementasi `EnrollmentService` di desktop
 3. Tambah tab/dialog "Enroll device" di UI yang panggil `EnrollmentService.EnrollAsync()`
 4. Audit `enrollment_log` table di Supabase staging
@@ -374,5 +374,5 @@ Migrasi dianggap **100% selesai** jika:
 
 ---
 
-[← Bab 9 API Reference]({% link docs/09-api-reference.md %}){: .btn }
-[Bab 11 — Troubleshooting →]({% link docs/11-troubleshooting.md %}){: .btn .btn-primary }
+[← Bab 9 API Reference]({{ site.baseurl }}{% link docs/09-api-reference.md %}){: .btn }
+[Bab 11 — Troubleshooting →]({{ site.baseurl }}{% link docs/11-troubleshooting.md %}){: .btn .btn-primary }

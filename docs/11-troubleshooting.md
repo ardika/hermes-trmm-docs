@@ -280,7 +280,7 @@ using var gcm = new AesGcm(key);
 using var gcm = new AesGcm(key, tagSizeInBytes: 16);
 ```
 
-Sudah benar di code di [Bab 4]({% link docs/04-trmm-api-client.md %}) dan dokumen LogEncryption.
+Sudah benar di code di [Bab 4]({{ site.baseurl }}{% link docs/04-trmm-api-client.md %}) dan dokumen LogEncryption.
 
 ## 11.10 Avalonia: UI freeze saat panggil TRMM API
 
@@ -402,5 +402,5 @@ Kalau masalah tidak teratasi di support level 1:
 
 ---
 
-[← Bab 10 Rencana Migrasi]({% link docs/10-migrasi.md %}){: .btn }
-[Bab 12 — FAQ →]({% link docs/12-faq.md %}){: .btn .btn-primary }
+[← Bab 10 Rencana Migrasi]({{ site.baseurl }}{% link docs/10-migrasi.md %}){: .btn }
+[Bab 12 — FAQ →]({{ site.baseurl }}{% link docs/12-faq.md %}){: .btn .btn-primary }

@@ -423,5 +423,5 @@ lipo -create publish/arm64/HermesNetwork360Guard \
 
 ---
 
-[← Bab 7 Auth & Keamanan]({% link docs/07-auth-keamanan.md %}){: .btn }
-[Bab 9 — TRMM API Reference →]({% link docs/09-api-reference.md %}){: .btn .btn-primary }
+[← Bab 7 Auth & Keamanan]({{ site.baseurl }}{% link docs/07-auth-keamanan.md %}){: .btn }
+[Bab 9 — TRMM API Reference →]({{ site.baseurl }}{% link docs/09-api-reference.md %}){: .btn .btn-primary }

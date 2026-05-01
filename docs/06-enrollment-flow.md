@@ -72,7 +72,7 @@ sequenceDiagram
     UI->>U: ✅ "Device enrolled successfully"
 ```
 
-> **Catatan keamanan:** langkah 11 (polling agent dari client) idealnya juga lewat edge function proxy — bukan call langsung ke TRMM dari client. Detail di [Bab 7]({% link docs/07-auth-keamanan.md %}).
+> **Catatan keamanan:** langkah 11 (polling agent dari client) idealnya juga lewat edge function proxy — bukan call langsung ke TRMM dari client. Detail di [Bab 7]({{ site.baseurl }}{% link docs/07-auth-keamanan.md %}).
 
 ## 6.3 Supabase schema
 
@@ -465,7 +465,7 @@ Tidak perlu special-case di code.
 Kalau setelah 2 menit agent belum muncul:
 
 - Kemungkinan: installer gagal silent, firewall block agent ke api.hermesnetwork.cloud, atau service belum start
-- Tampilkan instruksi troubleshooting ke user (lihat [Bab 11]({% link docs/11-troubleshooting.md %}))
+- Tampilkan instruksi troubleshooting ke user (lihat [Bab 11]({{ site.baseurl }}{% link docs/11-troubleshooting.md %}))
 - **Jangan** auto-retry tanpa input user — bisa generate banyak deployment yang expire
 
 ### 6.6.3 User tutup app saat installer jalan
@@ -519,5 +519,5 @@ curl -X POST https://YOUR_PROJECT.supabase.co/functions/v1/enroll-rmm \
 
 ---
 
-[← Bab 5 AgentSupervisor]({% link docs/05-agent-supervisor.md %}){: .btn }
-[Bab 7 — Auth & Keamanan →]({% link docs/07-auth-keamanan.md %}){: .btn .btn-primary }
+[← Bab 5 AgentSupervisor]({{ site.baseurl }}{% link docs/05-agent-supervisor.md %}){: .btn }
+[Bab 7 — Auth & Keamanan →]({{ site.baseurl }}{% link docs/07-auth-keamanan.md %}){: .btn .btn-primary }

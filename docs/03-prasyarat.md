@@ -37,7 +37,7 @@ Kalau Anda perlu instance baru (mis. staging), ikuti panduan resmi:
 4. Pilih user yang akan dipakai (rekomendasi: bikin user dedicated `hermes-app-svc` dengan permission terbatas)
 5. Salin key yang dikeluarkan — **hanya ditampilkan satu kali**
 
-> **Penting:** API key ini **hanya boleh disimpan di Supabase Edge Function**, jangan pernah embed di desktop client. Detail di [Bab 7]({% link docs/07-auth-keamanan.md %}).
+> **Penting:** API key ini **hanya boleh disimpan di Supabase Edge Function**, jangan pernah embed di desktop client. Detail di [Bab 7]({{ site.baseurl }}{% link docs/07-auth-keamanan.md %}).
 
 ### 3.1.2 Menentukan client_id & site_id
 
@@ -62,7 +62,7 @@ curl -H "X-API-KEY: YOUR_API_KEY" https://api.hermesnetwork.cloud/api/v3/clients
 # ]
 ```
 
-Catat ID-nya untuk dipakai di Supabase Edge Function (lihat [Bab 6]({% link docs/06-enrollment-flow.md %})).
+Catat ID-nya untuk dipakai di Supabase Edge Function (lihat [Bab 6]({{ site.baseurl }}{% link docs/06-enrollment-flow.md %})).
 
 ## 3.2 Development environment
 
@@ -196,7 +196,7 @@ Expected: function muncul di Supabase dashboard di Functions section.
 
 ## 3.6 Checklist sebelum lanjut
 
-Pastikan semua centang sebelum lanjut ke [Bab 4]({% link docs/04-trmm-api-client.md %}):
+Pastikan semua centang sebelum lanjut ke [Bab 4]({{ site.baseurl }}{% link docs/04-trmm-api-client.md %}):
 
 - [ ] TRMM API key sudah dibuat dan disimpan di password manager
 - [ ] `client_id` dan `site_id` sudah dicatat
@@ -208,5 +208,5 @@ Pastikan semua centang sebelum lanjut ke [Bab 4]({% link docs/04-trmm-api-client
 
 ---
 
-[← Bab 2 Arsitektur]({% link docs/02-arsitektur.md %}){: .btn }
-[Bab 4 — TrmmApiClient →]({% link docs/04-trmm-api-client.md %}){: .btn .btn-primary }
+[← Bab 2 Arsitektur]({{ site.baseurl }}{% link docs/02-arsitektur.md %}){: .btn }
+[Bab 4 — TrmmApiClient →]({{ site.baseurl }}{% link docs/04-trmm-api-client.md %}){: .btn .btn-primary }

@@ -508,5 +508,5 @@ sudo launchctl list com.tacticalrmm.tacticalagent
 
 ---
 
-[← Bab 4 TrmmApiClient]({% link docs/04-trmm-api-client.md %}){: .btn }
-[Bab 6 — Enrollment Flow →]({% link docs/06-enrollment-flow.md %}){: .btn .btn-primary }
+[← Bab 4 TrmmApiClient]({{ site.baseurl }}{% link docs/04-trmm-api-client.md %}){: .btn }
+[Bab 6 — Enrollment Flow →]({{ site.baseurl }}{% link docs/06-enrollment-flow.md %}){: .btn .btn-primary }

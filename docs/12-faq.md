@@ -274,5 +274,5 @@ Buka issue di repo internal `Hermes-Network-Inc/HermesNetwork360Guard` atau Slac
 
 ---
 
-[← Bab 11 Troubleshooting]({% link docs/11-troubleshooting.md %}){: .btn }
-[← Kembali ke Beranda]({% link index.md %}){: .btn .btn-primary }
+[← Bab 11 Troubleshooting]({{ site.baseurl }}{% link docs/11-troubleshooting.md %}){: .btn }
+[← Kembali ke Beranda]({{ site.baseurl }}{% link index.md %}){: .btn .btn-primary }

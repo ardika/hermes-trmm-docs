@@ -317,5 +317,5 @@ Skenario:
 
 ---
 
-[← Bab 6 Enrollment Flow]({% link docs/06-enrollment-flow.md %}){: .btn }
-[Bab 8 — Dukungan macOS →]({% link docs/08-mac-support.md %}){: .btn .btn-primary }
+[← Bab 6 Enrollment Flow]({{ site.baseurl }}{% link docs/06-enrollment-flow.md %}){: .btn }
+[Bab 8 — Dukungan macOS →]({{ site.baseurl }}{% link docs/08-mac-support.md %}){: .btn .btn-primary }

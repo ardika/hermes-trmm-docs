@@ -151,5 +151,5 @@ Kalau Anda butuh salah satu di atas, lihat dokumen internal terpisah atau dokume
 
 ---
 
-[← Beranda]({% link index.md %}){: .btn }
-[Bab 2 — Arsitektur →]({% link docs/02-arsitektur.md %}){: .btn .btn-primary }
+[← Beranda]({{ site.baseurl }}{% link index.md %}){: .btn }
+[Bab 2 — Arsitektur →]({{ site.baseurl }}{% link docs/02-arsitektur.md %}){: .btn .btn-primary }

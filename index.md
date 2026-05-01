@@ -11,8 +11,8 @@ permalink: /
 **Hermes Network 360 Guard — Desktop Client (Windows & macOS)**
 {: .fs-6 .fw-300 }
 
-[Mulai dari Pendahuluan]({% link docs/01-pendahuluan.md %}){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[Lihat Arsitektur]({% link docs/02-arsitektur.md %}){: .btn .fs-5 .mb-4 .mb-md-0 }
+[Mulai dari Pendahuluan]({{ site.baseurl }}{% link docs/01-pendahuluan.md %}){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[Lihat Arsitektur]({{ site.baseurl }}{% link docs/02-arsitektur.md %}){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
 
@@ -46,18 +46,18 @@ Tidak perlu paham TRMM secara mendalam — bagian-bagian penting akan dijelaskan
 
 | # | Bab | Ringkasan |
 |---|-----|-----------|
-| 1 | [Pendahuluan]({% link docs/01-pendahuluan.md %}) | Konteks, masalah saat ini, tujuan refactor |
-| 2 | [Arsitektur]({% link docs/02-arsitektur.md %}) | Diagram before/after, tiga lapis terpisah |
-| 3 | [Prasyarat]({% link docs/03-prasyarat.md %}) | Setup TRMM server, NuGet, environment |
-| 4 | [Layer 1 — TrmmApiClient]({% link docs/04-trmm-api-client.md %}) | HTTP client typed untuk TRMM REST API |
-| 5 | [Layer 2 — AgentSupervisor]({% link docs/05-agent-supervisor.md %}) | Service lifecycle lokal, Win + Mac |
-| 6 | [Layer 3 — Enrollment Flow]({% link docs/06-enrollment-flow.md %}) | Deployment URL, install, polling |
-| 7 | [Authentication & Keamanan]({% link docs/07-auth-keamanan.md %}) | JWT exchange, token rotation, threat model |
-| 8 | [Dukungan macOS]({% link docs/08-mac-support.md %}) | LaunchDaemon, signing, notarization |
-| 9 | [TRMM API Reference]({% link docs/09-api-reference.md %}) | Endpoint cheat-sheet |
-| 10 | [Rencana Migrasi]({% link docs/10-migrasi.md %}) | Phase 0–6, rollback |
-| 11 | [Troubleshooting]({% link docs/11-troubleshooting.md %}) | Error umum + debugging |
-| 12 | [FAQ]({% link docs/12-faq.md %}) | Pertanyaan & keputusan desain |
+| 1 | [Pendahuluan]({{ site.baseurl }}{% link docs/01-pendahuluan.md %}) | Konteks, masalah saat ini, tujuan refactor |
+| 2 | [Arsitektur]({{ site.baseurl }}{% link docs/02-arsitektur.md %}) | Diagram before/after, tiga lapis terpisah |
+| 3 | [Prasyarat]({{ site.baseurl }}{% link docs/03-prasyarat.md %}) | Setup TRMM server, NuGet, environment |
+| 4 | [Layer 1 — TrmmApiClient]({{ site.baseurl }}{% link docs/04-trmm-api-client.md %}) | HTTP client typed untuk TRMM REST API |
+| 5 | [Layer 2 — AgentSupervisor]({{ site.baseurl }}{% link docs/05-agent-supervisor.md %}) | Service lifecycle lokal, Win + Mac |
+| 6 | [Layer 3 — Enrollment Flow]({{ site.baseurl }}{% link docs/06-enrollment-flow.md %}) | Deployment URL, install, polling |
+| 7 | [Authentication & Keamanan]({{ site.baseurl }}{% link docs/07-auth-keamanan.md %}) | JWT exchange, token rotation, threat model |
+| 8 | [Dukungan macOS]({{ site.baseurl }}{% link docs/08-mac-support.md %}) | LaunchDaemon, signing, notarization |
+| 9 | [TRMM API Reference]({{ site.baseurl }}{% link docs/09-api-reference.md %}) | Endpoint cheat-sheet |
+| 10 | [Rencana Migrasi]({{ site.baseurl }}{% link docs/10-migrasi.md %}) | Phase 0–6, rollback |
+| 11 | [Troubleshooting]({{ site.baseurl }}{% link docs/11-troubleshooting.md %}) | Error umum + debugging |
+| 12 | [FAQ]({{ site.baseurl }}{% link docs/12-faq.md %}) | Pertanyaan & keputusan desain |
 
 ---
 
@@ -72,7 +72,7 @@ Sepanjang dokumen ini:
 - Block dengan `bash` adalah perintah shell yang bisa dijalankan di server.
 - Block dengan `csharp` adalah snippet untuk drop-in ke project Avalonia.
 
-> **Catatan**: kalau Anda baru menemukan dokumen ini, mulai dari [Pendahuluan]({% link docs/01-pendahuluan.md %}) dan baca berurutan. Kalau Anda hanya butuh referensi cepat, langsung ke [API Reference]({% link docs/09-api-reference.md %}) atau [Troubleshooting]({% link docs/11-troubleshooting.md %}).
+> **Catatan**: kalau Anda baru menemukan dokumen ini, mulai dari [Pendahuluan]({{ site.baseurl }}{% link docs/01-pendahuluan.md %}) dan baca berurutan. Kalau Anda hanya butuh referensi cepat, langsung ke [API Reference]({{ site.baseurl }}{% link docs/09-api-reference.md %}) atau [Troubleshooting]({{ site.baseurl }}{% link docs/11-troubleshooting.md %}).
 
 ---
 

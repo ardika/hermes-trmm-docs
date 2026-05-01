@@ -511,5 +511,5 @@ NuGet untuk mock: `RichardSzalay.MockHttp`.
 
 ---
 
-[← Bab 3 Prasyarat]({% link docs/03-prasyarat.md %}){: .btn }
-[Bab 5 — AgentSupervisor →]({% link docs/05-agent-supervisor.md %}){: .btn .btn-primary }
+[← Bab 3 Prasyarat]({{ site.baseurl }}{% link docs/03-prasyarat.md %}){: .btn }
+[Bab 5 — AgentSupervisor →]({{ site.baseurl }}{% link docs/05-agent-supervisor.md %}){: .btn .btn-primary }
